@@ -12,16 +12,16 @@ class LoginFormTest extends \Codeception\TestCase\Test
     protected function _before()
     {
         test::clean();
-        test::double('common\models\User', [
-            'findByUsername' => new User
-        ]);                
+        // test::double('common\models\User', [
+        //     'findByUsername' => new User
+        // ]);                
     }
 
     public function testCanLoginWhenValid()
     {
         $user = test::double('common\models\User', [
-            'validatePassword' => true,
-            'findByUsername' => new User
+            // 'validatePassword' => true,
+            // 'findByUsername' => new User
         ]);                
         $model = new LoginForm();
         $model->username = 'davert';
