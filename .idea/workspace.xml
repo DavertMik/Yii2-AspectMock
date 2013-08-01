@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16dc4d9b-fbd4-4f16-8aed-257515304503" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/common/config/params-local.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/common/config/params.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/common/models/LoginForm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/common/models/User.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/tests/_helpers/CodeHelper.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/tests/_helpers/TestHelper.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/tests/functional/TestGuy.php" afterPath="" />
@@ -10,6 +14,9 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/tests/unit/_bootstrap.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/aspect-mock/src/AspectMock/Core/Mocker.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/aspect-mock/src/AspectMock/Core/Registry.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/aspect-mock/src/AspectMock/Proxy/ClassProxy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/aspect-mock/src/AspectMock/Proxy/MethodProxy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/aspect-mock/src/AspectMock/Proxy/Verifier.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/aspect-mock/src/AspectMock/Test.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/codeception/src/Codeception/AbstractGuy.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/codeception/src/Codeception/Event/Fail.php" afterPath="" />
@@ -22,15 +29,12 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/codeception/src/Codeception/PHPUnit/Listener.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/codeception/src/Codeception/PHPUnit/ResultPrinter/UI.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/codeception/src/Codeception/PHPUnit/Runner.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/codeception/src/Codeception/Scenario.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/codeception/src/Codeception/Subscriber/Cest.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/codeception/src/Codeception/Subscriber/Console.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/codeception/src/Codeception/Subscriber/ErrorHandler.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/codeception/src/Codeception/Subscriber/Logger.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/codeception/src/Codeception/Subscriber/Module.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/codeception/src/Codeception/SuiteManager.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/codeception/src/Codeception/TestCase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/codeception/src/Codeception/TestCase/Test.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/codeception/src/Codeception/Util/Autoload.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/monolog/monolog/src/Monolog/Formatter/FormatterInterface.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/monolog/monolog/src/Monolog/Formatter/LineFormatter.php" afterPath="" />
@@ -41,9 +45,22 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/monolog/monolog/src/Monolog/Logger.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/php-code-coverage/PHP/CodeCoverage.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Filter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/php-file-iterator/File/Iterator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/php-file-iterator/File/Iterator/Facade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/php-file-iterator/File/Iterator/Factory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/php-text-template/Text/Template.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/php-timer/PHP/Timer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/php-token-stream/PHP/Token.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Generator.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/phpunit/PHPUnit/Framework/Assert.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/phpunit/PHPUnit/Framework/AssertionFailedError.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/IsFalse.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/phpunit/PHPUnit/Framework/Constraint/IsTrue.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/phpunit/PHPUnit/Framework/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/phpunit/PHPUnit/Framework/ExpectationFailedException.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/phpunit/PHPUnit/Framework/SelfDescribing.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/phpunit/PHPUnit/Framework/Test.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php" afterPath="" />
@@ -54,9 +71,11 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/phpunit/PHPUnit/Runner/BaseTestRunner.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/phpunit/PHPUnit/TextUI/ResultPrinter.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/phpunit/PHPUnit/TextUI/TestRunner.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/phpunit/PHPUnit/Util/Filter.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/phpunit/PHPUnit/Util/GlobalState.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/phpunit/PHPUnit/Util/Printer.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/phpunit/PHPUnit/Util/Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/phpunit/PHPUnit/Util/Type.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/psr/log/Psr/Log/LoggerInterface.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/symfony/event-dispatcher/Symfony/Component/EventDispatcher/Event.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/symfony/event-dispatcher/Symfony/Component/EventDispatcher/EventDispatcher.php" afterPath="" />
@@ -86,17 +105,56 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/symfony/finder/Symfony/Component/Finder/Iterator/SortableIterator.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/symfony/finder/Symfony/Component/Finder/Shell/Shell.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/symfony/finder/Symfony/Component/Finder/SplFileInfo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_log/codeception-2013-07-27.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_log/codeception-2013-07-28.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/.gitignore" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/models/LoginForm.php" afterPath="$PROJECT_DIR$/common/models/LoginForm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/unit/LoginFormTest.php" afterPath="$PROJECT_DIR$/tests/unit/LoginFormTest.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/base/Application.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/base/Arrayable.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/base/Behavior.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/base/Component.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/base/ErrorException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/base/Event.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/base/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/base/Model.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/base/ModelEvent.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/base/Module.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/base/Object.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/behaviors/AutoTimestamp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/db/ActiveRecord.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/db/Connection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/db/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/db/Schema.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/db/TableSchema.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/db/mysql/Schema.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/helpers/ArrayHelper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/helpers/ArrayHelperBase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/helpers/Inflector.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/helpers/InflectorBase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/helpers/Security.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/helpers/SecurityBase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/helpers/StringHelper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/helpers/StringHelperBase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/i18n/I18N.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/i18n/MessageSource.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/i18n/PhpMessageSource.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/log/FileTarget.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/log/Logger.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/log/Target.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/validators/BooleanValidator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/validators/InlineValidator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/validators/RequiredValidator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/validators/Validator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/web/Application.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/web/Identity.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/web/Session.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/web/User.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/web/UserEvent.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/jakubledl/dissect" afterPath="$PROJECT_DIR$/vendor/jakubledl/dissect" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/_bootstrap.php" afterPath="$PROJECT_DIR$/tests/_bootstrap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/_log/codeception-2013-08-01.log" afterPath="$PROJECT_DIR$/tests/_log/codeception-2013-08-01.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="advanced.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375205207698" ignored="false" />
+    <file path="/Dummy.txt" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375328283018" ignored="false" />
     <file path="/LoginFormTest.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375317347365" ignored="false" />
     <file path="/a.dummy" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375061180254" ignored="false" />
     <file path="/_bootstrap.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375231018883" ignored="false" />
@@ -169,10 +227,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_bootstrap.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_bootstrap.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/_bootstrap.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="19" selection-start="337" selection-end="337" vertical-scroll-proportion="-7.6296296">
+            <state line="2" column="0" selection-start="33" selection-end="33" vertical-scroll-proportion="0.072916664">
               <folding />
             </state>
           </provider>
@@ -188,27 +246,9 @@
         </entry>
       </file>
       <file leaf-file-name="LoginForm.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/_data/cache/common/models/LoginForm.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="548" selection-end="548" vertical-scroll-proportion="-0.7777778">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/_data/cache/common/models/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="230" column="4" selection-start="5530" selection-end="5530" vertical-scroll-proportion="0.74600357">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginForm.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/models/LoginForm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="585" selection-end="585" vertical-scroll-proportion="-3.1111112">
+            <state line="32" column="0" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -217,7 +257,7 @@
       <file leaf-file-name="FilterInjectorTransformer.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/lisachenko/go-aop-php/src/Go/Instrument/Transformer/FilterInjectorTransformer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="153" column="66" selection-start="4379" selection-end="4379" vertical-scroll-proportion="-9.185185">
+            <state line="153" column="66" selection-start="4379" selection-end="4379" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -226,7 +266,7 @@
       <file leaf-file-name="SecurityBase.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/yii/helpers/SecurityBase.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="125" column="42" selection-start="4596" selection-end="4596" vertical-scroll-proportion="-13.074074">
+            <state line="125" column="42" selection-start="4596" selection-end="4596" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -235,7 +275,7 @@
       <file leaf-file-name="Kernel.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/codeception/aspect-mock/src/AspectMock/Kernel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="334" selection-end="334" vertical-scroll-proportion="-3.7037036">
+            <state line="12" column="0" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -244,7 +284,7 @@
       <file leaf-file-name="Assert.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Assert.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="887" column="0" selection-start="28770" selection-end="28770" vertical-scroll-proportion="-3.5555556">
+            <state line="887" column="0" selection-start="28770" selection-end="28770" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -253,7 +293,7 @@
       <file leaf-file-name="composer.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="30" selection-start="258" selection-end="258" vertical-scroll-proportion="-0.7777778">
+            <state line="6" column="30" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -287,15 +327,15 @@
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/helpers/SecurityBase.php" />
         <option value="$PROJECT_DIR$/vendor/yiisoft/yii2/yii/helpers/SecurityBase.php" />
-        <option value="$PROJECT_DIR$/tests/_bootstrap.php" />
         <option value="$PROJECT_DIR$/tests/unit/LoginFormTest.php" />
+        <option value="$PROJECT_DIR$/tests/_bootstrap.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="Unnamed" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2" />
-    <option name="y" value="-5" />
+    <option name="x" value="-1" />
+    <option name="y" value="-4" />
     <option name="width" value="1368" />
     <option name="height" value="773" />
   </component>
@@ -403,84 +443,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cache" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="advanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="advanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cache" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="advanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="advanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cache" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="advanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="advanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -511,8 +473,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -556,7 +518,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="-5" width="1368" height="773" extended-state="0" />
+    <frame x="-1" y="-4" width="1368" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923076" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -564,7 +526,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25757575" sideWeight="0.5784615" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15454546" sideWeight="0.5784615" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42153847" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -673,23 +635,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Configuration.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="0" selection-start="3052" selection-end="3052" vertical-scroll-proportion="-6.9259257">
-          <folding />
-        </state>
+        <state line="79" column="0" selection-start="3052" selection-end="3052" vertical-scroll-proportion="-6.9259257" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="997" column="31" selection-start="27721" selection-end="27721" vertical-scroll-proportion="-0.7777778">
-          <folding />
-        </state>
+        <state line="997" column="31" selection-start="27721" selection-end="27721" vertical-scroll-proportion="-0.7777778" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/lisachenko/go-aop-php/src/Go/Instrument/ClassLoading/AopComposerLoader.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="940" selection-end="940" vertical-scroll-proportion="-3.8888888">
-          <folding />
-        </state>
+        <state line="41" column="0" selection-start="940" selection-end="940" vertical-scroll-proportion="-3.8888888" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/models/User.php">
@@ -701,56 +657,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/codeception/aspect-mock/src/AspectMock/Test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="27" selection-start="2887" selection-end="2887" vertical-scroll-proportion="-7.259259">
-          <folding />
-        </state>
+        <state line="88" column="27" selection-start="2887" selection-end="2887" vertical-scroll-proportion="-7.259259" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="30" selection-start="258" selection-end="258" vertical-scroll-proportion="-0.7777778">
+        <state line="6" column="30" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/lisachenko/go-aop-php/src/Go/Instrument/Transformer/FilterInjectorTransformer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="153" column="66" selection-start="4379" selection-end="4379" vertical-scroll-proportion="-9.185185">
+        <state line="153" column="66" selection-start="4379" selection-end="4379" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/yii/helpers/SecurityBase.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="42" selection-start="4596" selection-end="4596" vertical-scroll-proportion="-13.074074">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/_bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="19" selection-start="337" selection-end="337" vertical-scroll-proportion="-7.6296296">
+        <state line="125" column="42" selection-start="4596" selection-end="4596" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Assert.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="887" column="0" selection-start="28770" selection-end="28770" vertical-scroll-proportion="-3.5555556">
+        <state line="887" column="0" selection-start="28770" selection-end="28770" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/codeception/aspect-mock/src/AspectMock/Kernel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="334" selection-end="334" vertical-scroll-proportion="-3.7037036">
+        <state line="12" column="0" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/models/LoginForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="585" selection-end="585" vertical-scroll-proportion="-3.1111112">
+        <state line="32" column="0" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -762,16 +709,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/_data/cache/common/models/LoginForm.php">
+    <entry file="file://$PROJECT_DIR$/tests/_bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="548" selection-end="548" vertical-scroll-proportion="-0.7777778">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/_data/cache/common/models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="230" column="4" selection-start="5530" selection-end="5530" vertical-scroll-proportion="0.74600357">
+        <state line="2" column="0" selection-start="33" selection-end="33" vertical-scroll-proportion="0.072916664">
           <folding />
         </state>
       </provider>
