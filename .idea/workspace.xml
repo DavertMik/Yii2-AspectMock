@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="16dc4d9b-fbd4-4f16-8aed-257515304503" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/tests/_helpers/CodeHelper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/tests/_helpers/TestHelper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/tests/functional/TestGuy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/tests/unit/CodeGuy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/tests/unit/LoginFormTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/tests/unit/_bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/aspect-mock/src/AspectMock/Core/Mocker.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/aspect-mock/src/AspectMock/Core/Registry.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/aspect-mock/src/AspectMock/Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/codeception/src/Codeception/AbstractGuy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/codeception/src/Codeception/Event/Fail.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/codeception/src/Codeception/Event/PrintResult.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/codeception/src/Codeception/Event/Suite.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/codeception/src/Codeception/Event/Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/codeception/src/Codeception/Module.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/codeception/src/Codeception/Module/Filesystem.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/codeception/src/Codeception/Output.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/codeception/src/Codeception/PHPUnit/Listener.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/codeception/src/Codeception/PHPUnit/ResultPrinter/UI.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/codeception/src/Codeception/PHPUnit/Runner.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/codeception/src/Codeception/Scenario.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/codeception/src/Codeception/Subscriber/Cest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/codeception/src/Codeception/Subscriber/Console.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/codeception/src/Codeception/Subscriber/ErrorHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/codeception/src/Codeception/Subscriber/Logger.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/codeception/src/Codeception/Subscriber/Module.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/codeception/src/Codeception/SuiteManager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/codeception/src/Codeception/TestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/codeception/src/Codeception/TestCase/Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/codeception/codeception/src/Codeception/Util/Autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/monolog/monolog/src/Monolog/Formatter/FormatterInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/monolog/monolog/src/Monolog/Formatter/LineFormatter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/monolog/monolog/src/Monolog/Formatter/NormalizerFormatter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/monolog/monolog/src/Monolog/Handler/HandlerInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/monolog/monolog/src/Monolog/Logger.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/php-code-coverage/PHP/CodeCoverage/Filter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/php-timer/PHP/Timer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/phpunit/PHPUnit/Framework/Assert.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/phpunit/PHPUnit/Framework/SelfDescribing.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/phpunit/PHPUnit/Framework/Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/phpunit/PHPUnit/Framework/TestFailure.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/phpunit/PHPUnit/Framework/TestListener.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/phpunit/PHPUnit/Framework/TestResult.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/phpunit/PHPUnit/Framework/TestSuite.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/phpunit/PHPUnit/Runner/BaseTestRunner.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/phpunit/PHPUnit/TextUI/ResultPrinter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/phpunit/PHPUnit/TextUI/TestRunner.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/phpunit/PHPUnit/Util/GlobalState.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/phpunit/PHPUnit/Util/Printer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/phpunit/phpunit/PHPUnit/Util/Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/psr/log/Psr/Log/LoggerInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/symfony/event-dispatcher/Symfony/Component/EventDispatcher/Event.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/symfony/event-dispatcher/Symfony/Component/EventDispatcher/EventDispatcher.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/symfony/event-dispatcher/Symfony/Component/EventDispatcher/EventDispatcherInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/symfony/event-dispatcher/Symfony/Component/EventDispatcher/EventSubscriberInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/symfony/finder/Symfony/Component/Finder/Adapter/AbstractAdapter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/symfony/finder/Symfony/Component/Finder/Adapter/AbstractFindAdapter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/symfony/finder/Symfony/Component/Finder/Adapter/AdapterInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/symfony/finder/Symfony/Component/Finder/Adapter/BsdFindAdapter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/symfony/finder/Symfony/Component/Finder/Adapter/GnuFindAdapter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/symfony/finder/Symfony/Component/Finder/Adapter/PhpAdapter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/symfony/finder/Symfony/Component/Finder/Comparator/Comparator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/symfony/finder/Symfony/Component/Finder/Comparator/NumberComparator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/symfony/finder/Symfony/Component/Finder/Expression/Expression.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/symfony/finder/Symfony/Component/Finder/Expression/Glob.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/symfony/finder/Symfony/Component/Finder/Expression/Regex.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/symfony/finder/Symfony/Component/Finder/Expression/ValueInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/symfony/finder/Symfony/Component/Finder/Finder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/symfony/finder/Symfony/Component/Finder/Iterator/DepthRangeFilterIterator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/symfony/finder/Symfony/Component/Finder/Iterator/ExcludeDirectoryFilterIterator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/symfony/finder/Symfony/Component/Finder/Iterator/FileTypeFilterIterator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/symfony/finder/Symfony/Component/Finder/Iterator/FilenameFilterIterator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/symfony/finder/Symfony/Component/Finder/Iterator/FilterIterator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/symfony/finder/Symfony/Component/Finder/Iterator/MultiplePcreFilterIterator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/symfony/finder/Symfony/Component/Finder/Iterator/PathFilterIterator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/symfony/finder/Symfony/Component/Finder/Iterator/RecursiveDirectoryIterator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/symfony/finder/Symfony/Component/Finder/Iterator/SortableIterator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/symfony/finder/Symfony/Component/Finder/Shell/Shell.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_data/cache/vendor/symfony/finder/Symfony/Component/Finder/SplFileInfo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_log/codeception-2013-07-27.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_log/codeception-2013-07-28.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/.gitignore" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/models/LoginForm.php" afterPath="$PROJECT_DIR$/common/models/LoginForm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/unit/LoginFormTest.php" afterPath="$PROJECT_DIR$/tests/unit/LoginFormTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/_bootstrap.php" afterPath="$PROJECT_DIR$/tests/_bootstrap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+    </list>
+    <ignored path="advanced.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/Dummy.txt" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375205207698" ignored="false" />
+    <file path="/LoginFormTest.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375317347365" ignored="false" />
+    <file path="/a.dummy" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375061180254" ignored="false" />
+    <file path="/_bootstrap.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375231018883" ignored="false" />
+    <file path="$USER_HOME$/AspectMock/src/AspectMock/Kernel.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375221761348" ignored="false" />
+    <file path="/Kernel.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375055429856" ignored="false" />
+    <file path="$USER_HOME$/AspectMock/src/AspectMock/Util/Maybe.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375056882512" ignored="false" />
+    <file path="/Maybe.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375061238177" ignored="false" />
+    <file path="$USER_HOME$/AspectMock/src/AspectMock/Test.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375236686017" ignored="false" />
+    <file path="$USER_HOME$/AspectMock/src/AspectMock/Core/InstanceProxy.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375060497464" ignored="false" />
+    <file path="/InstanceProxy.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375133905082" ignored="false" />
+    <file path="$USER_HOME$/AspectMock/src/AspectMock/Core/ClassProxy.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375060288325" ignored="false" />
+    <file path="/ClassProxy.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375227684657" ignored="false" />
+    <file path="$USER_HOME$/AspectMock/src/AspectMock/Util/Undefined.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375056602346" ignored="false" />
+    <file path="/Mocker.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375058508380" ignored="false" />
+    <file path="$USER_HOME$/AspectMock/src/AspectMock/Core/Mocker.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375297815981" ignored="false" />
+    <file path="$USER_HOME$/AspectMock/tests/_data/cache/src/AspectMock/Core/Registry.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375136718760" ignored="false" />
+    <file path="/Registry.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375136687741" ignored="false" />
+    <file path="$USER_HOME$/AspectMock/src/AspectMock/Core/Verifier.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375060836017" ignored="false" />
+    <file path="/Verifier.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375063206032" ignored="false" />
+    <file path="$USER_HOME$/AspectMock/src/AspectMock/Proxy/Maybe.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375061170542" ignored="false" />
+    <file path="$USER_HOME$/AspectMock/src/AspectMock/Proxy/Anything.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375226777345" ignored="false" />
+    <file path="$USER_HOME$/AspectMock/src/AspectMock/Proxy/Verifier.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375234719224" ignored="false" />
+    <file path="$USER_HOME$/AspectMock/src/AspectMock/Proxy/Undefined.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375061226998" ignored="false" />
+    <file path="$USER_HOME$/AspectMock/src/AspectMock/Proxy/MethodProxy.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375235832183" ignored="false" />
+    <file path="/MethodProxy.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375134673402" ignored="false" />
+    <file path="$USER_HOME$/AspectMock/src/AspectMock/Core/Registry.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375136710280" ignored="false" />
+    <file path="/Test.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375233251454" ignored="false" />
+    <file path="$USER_HOME$/AspectMock/tests/_data/cache/tests/_data/demo/UserModel.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375130401559" ignored="false" />
+    <file path="$USER_HOME$/AspectMock/tests/_data/cache/vendor/phpunit/phpunit/PHPUnit/Framework/Assert.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375130401559" ignored="false" />
+    <file path="/MockFailedTest.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375228257678" ignored="false" />
+    <file path="$USER_HOME$/AspectMock/tests/unit/MockFailedTest.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375228488311" ignored="false" />
+    <file path="$USER_HOME$/AspectMock/src/AspectMock/Proxy/InstanceProxy.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375234559286" ignored="false" />
+    <file path="$USER_HOME$/AspectMock/src/AspectMock/Proxy/ClassProxy.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375235840780" ignored="false" />
+    <file path="$USER_HOME$/AspectMock/tests/_data/cache/src/AspectMock/Proxy/InstanceProxy.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375133921128" ignored="false" />
+    <file path="/MockTest.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375230044140" ignored="false" />
+    <file path="$USER_HOME$/AspectMock/tests/_data/cache/tests/unit/MockTest.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375134052601" ignored="false" />
+    <file path="$USER_HOME$/AspectMock/tests/_data/cache/src/AspectMock/Proxy/MethodProxy.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375134688589" ignored="false" />
+    <file path="$USER_HOME$/AspectMock/tests/unit/testDoubleTest.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375229849788" ignored="false" />
+    <file path="/testDoubleTest.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375229685921" ignored="false" />
+    <file path="/YiiBase.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375206118189" ignored="false" />
+    <file path="/LoginForm.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375207372287" ignored="false" />
+    <file path="/FilterInjectorTransformer.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375218624400" ignored="false" />
+    <file path="$USER_HOME$/AspectMock/tests/_bootstrap.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375297594743" ignored="false" />
+    <file path="$USER_HOME$/AspectMock/tests/_log/coverage/index.html" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375230122265" ignored="false" />
+    <file path="/Anything.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375226755585" ignored="false" />
+    <file path="/fragment.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375227589856" ignored="false" />
+    <file path="$USER_HOME$/AspectMock/src/AspectMock/Proxy/AnythingClassProxy.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375227954448" ignored="false" />
+    <file path="/AnythingClassProxy.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375227954110" ignored="false" />
+    <file path="$USER_HOME$/AspectMock/tests/unit/MockTest.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375230044140" ignored="false" />
+    <file path="$USER_HOME$/AspectMock/scripts/build_doc.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375234765906" ignored="false" />
+    <file path="$USER_HOME$/AspectMock/README.md" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375267773501" ignored="false" />
+    <file path="$USER_HOME$/AspectMock/VERSION" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375310856356" ignored="false" />
+    <file path="/SecurityBase.php" changelist="16dc4d9b-fbd4-4f16-8aed-257515304503" time="1375298947808" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="advanced" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="_bootstrap.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/_bootstrap.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="19" selection-start="337" selection-end="337" vertical-scroll-proportion="-7.6296296">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginFormTest.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/unit/LoginFormTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="57" column="0" selection-start="1210" selection-end="1548" vertical-scroll-proportion="-15.888889">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginForm.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/_data/cache/common/models/LoginForm.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="0" selection-start="548" selection-end="548" vertical-scroll-proportion="-0.7777778">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/_data/cache/common/models/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="230" column="4" selection-start="5530" selection-end="5530" vertical-scroll-proportion="0.74600357">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginForm.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/models/LoginForm.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="0" selection-start="585" selection-end="585" vertical-scroll-proportion="-3.1111112">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FilterInjectorTransformer.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/lisachenko/go-aop-php/src/Go/Instrument/Transformer/FilterInjectorTransformer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="153" column="66" selection-start="4379" selection-end="4379" vertical-scroll-proportion="-9.185185">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecurityBase.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/yii/helpers/SecurityBase.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="125" column="42" selection-start="4596" selection-end="4596" vertical-scroll-proportion="-13.074074">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Kernel.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/codeception/aspect-mock/src/AspectMock/Kernel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="0" selection-start="334" selection-end="334" vertical-scroll-proportion="-3.7037036">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Assert.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Assert.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="887" column="0" selection-start="28770" selection-end="28770" vertical-scroll-proportion="-3.5555556">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="composer.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="30" selection-start="258" selection-end="258" vertical-scroll-proportion="-0.7777778">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/common/models/LoginForm.php" />
+        <option value="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/YiiBase.php" />
+        <option value="$PROJECT_DIR$/vendor/yiisoft/yii2/yii/YiiBase.php" />
+        <option value="$PROJECT_DIR$/tests/_data/cache/common/models/LoginForm.php" />
+        <option value="$PROJECT_DIR$/vendor/lisachenko/go-aop-php/src/Go/Instrument/ClassLoading/AopComposerLoader.php" />
+        <option value="$PROJECT_DIR$/vendor/codeception/aspect-mock/src/AspectMock/Kernel.php" />
+        <option value="$PROJECT_DIR$/vendor/lisachenko/go-aop-php/src/Go/Instrument/Transformer/FilterInjectorTransformer.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/helpers/SecurityBase.php" />
+        <option value="$PROJECT_DIR$/vendor/yiisoft/yii2/yii/helpers/SecurityBase.php" />
+        <option value="$PROJECT_DIR$/tests/_bootstrap.php" />
+        <option value="$PROJECT_DIR$/tests/unit/LoginFormTest.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="Unnamed" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-2" />
+    <option name="y" value="-5" />
+    <option name="width" value="1368" />
+    <option name="height" value="773" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents ProjectPane="true" />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="advanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="advanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="advanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="advanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="advanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="advanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="advanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="advanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="advanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="advanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="advanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cache" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="advanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="advanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cache" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="advanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="advanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cache" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="advanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="advanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="advanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="advanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="true" />
+  </component>
+  <component name="PublishConfig">
+    <servers>
+      <server id="d8e941fb-b390-4b46-9693-81da2dbfa863">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+    </servers>
+  </component>
+  <component name="RunManager" selected="PHP Script.Test">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="false" name="Test" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/vendor/bin/codecept" scriptParameters="run">
+      <CommandLine workingDirectory="$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="PhpScriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpScriptDebugRunner" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHP Script.Test" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="16dc4d9b-fbd4-4f16-8aed-257515304503" name="Default" comment="" />
+      <created>1375016010656</created>
+      <updated>1375016010656</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-2" y="-5" width="1368" height="773" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923076" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25757575" sideWeight="0.5784615" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42153847" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/YiiBase.php</url>
+          <line>373</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/tests/_data/cache/vendor/yiisoft/yii2/yii/YiiBase.php</url>
+          <line>337</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/tests/_data/cache/vendor/codeception/aspect-mock/src/AspectMock/Core/Mocker.php</url>
+          <line>16</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/tests/_data/cache/common/models/User.php</url>
+          <line>189</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="16" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vendor/lisachenko/go-aop-php/src/Go/Core/AspectKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="0" selection-start="2820" selection-end="2820" vertical-scroll-proportion="-3.7037036">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/codeception/codeception/src/Codeception/Configuration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="0" selection-start="3052" selection-end="3052" vertical-scroll-proportion="-6.9259257">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/TestCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="997" column="31" selection-start="27721" selection-end="27721" vertical-scroll-proportion="-0.7777778">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/lisachenko/go-aop-php/src/Go/Instrument/ClassLoading/AopComposerLoader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="940" selection-end="940" vertical-scroll-proportion="-3.8888888">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/codeception/aspect-mock/src/AspectMock/Test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="27" selection-start="2887" selection-end="2887" vertical-scroll-proportion="-7.259259">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="30" selection-start="258" selection-end="258" vertical-scroll-proportion="-0.7777778">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/lisachenko/go-aop-php/src/Go/Instrument/Transformer/FilterInjectorTransformer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="153" column="66" selection-start="4379" selection-end="4379" vertical-scroll-proportion="-9.185185">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/yii/helpers/SecurityBase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="125" column="42" selection-start="4596" selection-end="4596" vertical-scroll-proportion="-13.074074">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/_bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="19" selection-start="337" selection-end="337" vertical-scroll-proportion="-7.6296296">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/PHPUnit/Framework/Assert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="887" column="0" selection-start="28770" selection-end="28770" vertical-scroll-proportion="-3.5555556">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/codeception/aspect-mock/src/AspectMock/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="334" selection-end="334" vertical-scroll-proportion="-3.7037036">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/LoginForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="585" selection-end="585" vertical-scroll-proportion="-3.1111112">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/unit/LoginFormTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="0" selection-start="1210" selection-end="1548" vertical-scroll-proportion="-15.888889">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/_data/cache/common/models/LoginForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="548" selection-end="548" vertical-scroll-proportion="-0.7777778">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/_data/cache/common/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="230" column="4" selection-start="5530" selection-end="5530" vertical-scroll-proportion="0.74600357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

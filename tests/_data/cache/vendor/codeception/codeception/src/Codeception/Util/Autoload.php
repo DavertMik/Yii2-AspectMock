@@ -56,7 +56,7 @@ class Autoload {
             $className = str_replace('\\', '', substr($class, (int)strrpos($class, '\\')));
             $file = $path.DIRECTORY_SEPARATOR.$className.'.php';
             if (!file_exists($file)) continue;
-            include_once \Go\Instrument\Transformer\FilterInjectorTransformer::rewrite( $file, '/home/davert/demos/yii2/apps/advanced/vendor/codeception/codeception/src/Codeception/Util');
+            include_once \Go\Instrument\Transformer\FilterInjectorTransformer::rewrite( $file, __DIR__);
             return true;
         }
         return false;

@@ -1,6 +1,0 @@
-[2013-07-27 14:49:47] Codeception.ALERT: Undefined property: common\models\LoginFormTest::$getFileName [] []
-[2013-07-27 14:49:47] Codeception.INFO: # ERROR # [] []
-[2013-07-27 14:49:47] Codeception.INFO: PASSED [] []
-[2013-07-27 14:49:47] Codeception.ALERT: Undefined property: common\models\LoginFormTest::$getFileName [] []
-[2013-07-27 14:49:47] Codeception.INFO: # ERROR # [] []
-[2013-07-27 14:49:47] Codeception.INFO: PASSED [] []

@@ -360,7 +360,7 @@ class PHPUnit_Framework_TestSuite implements PHPUnit_Framework_Test, PHPUnit_Fra
             if (substr($className, 0 - strlen($baseName)) == $baseName) {
                 $class = new ReflectionClass($className);
 
-                if (\Go\Instrument\Transformer\MagicConstantTransformer::resolveFileName($class->getFileName()) == $filename) {
+                if ($class->getFileName() == $filename) {
                     $newClasses = array($className);
                     break;
                 }

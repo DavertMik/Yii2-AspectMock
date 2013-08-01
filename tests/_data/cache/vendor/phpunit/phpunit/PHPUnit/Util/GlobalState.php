@@ -295,7 +295,7 @@ class PHPUnit_Util_GlobalState
                 strpos($declaredClasses[$i], 'PHP_CodeCoverage') !== 0 &&
                 strpos($declaredClasses[$i], 'PHP_Invoker') !== 0 &&
                 strpos($declaredClasses[$i], 'PHP_Timer') !== 0 &&
-                strpos($declaredClasses[$i], 'PHP_TokenStream') !== 0 &&
+                strpos($declaredClasses[$i], 'PHP_Token_Stream') !== 0 &&
                 strpos($declaredClasses[$i], 'Symfony') !== 0 &&
                 strpos($declaredClasses[$i], 'Text_Template') !== 0 &&
                 !$declaredClasses[$i] instanceof PHPUnit_Framework_Test) {
@@ -411,7 +411,7 @@ class PHPUnit_Util_GlobalState
         }
 
         $reflector = new ReflectionClass($className);
-        $directory = \Go\Instrument\Transformer\MagicConstantTransformer::resolveFileName($reflector->getFileName());
+        $directory = $reflector->getFileName();
 
         for ($i = 0; $i < $parent; $i++) {
             $directory = dirname($directory);

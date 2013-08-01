@@ -36,9 +36,9 @@ class Console implements EventSubscriberInterface
     {
         $test = $e->getTest();
         if ($test->getFeature()) {
-            $this->output->put("Trying to [[{$test->getFeature()}]] ({\Go\Instrument\Transformer\MagicConstantTransformer::resolveFileName($test->getFileName())})");
+            $this->output->put("Trying to [[{$test->getFeature()}]] ({$test->getFileName()})");
         } else {
-            $this->output->put("Running [[{\Go\Instrument\Transformer\MagicConstantTransformer::resolveFileName($test->getFileName())}]]");
+            $this->output->put("Running [[{$test->getFileName()}]]");
         }
         if ($this->steps && count($e->getTest()->getScenario()->getSteps())) $this->output->writeln("\nScenario:");
     }

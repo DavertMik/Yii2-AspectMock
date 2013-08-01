@@ -611,7 +611,7 @@ class PHPUnit_Framework_TestResult implements Countable
 
                 foreach ($classes as $class) {
                     $this->codeCoverage->filter()->addFileToBlacklist(
-                      \Go\Instrument\Transformer\MagicConstantTransformer::resolveFileName($class->getFileName())
+                      $class->getFileName()
                     );
                 }
             }

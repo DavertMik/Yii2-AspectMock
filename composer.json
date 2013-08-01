@@ -19,7 +19,7 @@
 		"yiisoft/yii2-composer": "dev-master"
 	},
 	"require-dev": {
-		"codeception/aspect-mock": "*",
+		"codeception/aspect-mock": "@dev",
 		"codeception/codeception": "*"
 	},
 	"scripts": {

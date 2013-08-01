@@ -33,7 +33,7 @@ class Logger implements EventSubscriberInterface
     }
 
     public function beforeTest(\Codeception\Event\Test $e) {
-        $this->logger = new \Monolog\Logger(\Go\Instrument\Transformer\MagicConstantTransformer::resolveFileName($e->getTest()->getFileName()));
+        $this->logger = new \Monolog\Logger($e->getTest()->getFileName());
         $this->logger->pushHandler($this->logHandler);
     }
 

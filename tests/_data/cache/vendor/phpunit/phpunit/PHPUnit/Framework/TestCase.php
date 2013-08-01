@@ -706,7 +706,7 @@ abstract class PHPUnit_Framework_TestCase extends PHPUnit_Framework_Assert imple
               sprintf(
                 '%s%sProcess%sTestCaseMethod.tpl',
 
-                '/home/davert/demos/yii2/apps/advanced/vendor/phpunit/phpunit/PHPUnit/Framework',
+                __DIR__,
                 DIRECTORY_SEPARATOR,
                 DIRECTORY_SEPARATOR,
                 DIRECTORY_SEPARATOR
@@ -753,7 +753,7 @@ abstract class PHPUnit_Framework_TestCase extends PHPUnit_Framework_Assert imple
             $template->setVar(
               array(
                 'composerAutoload'               => $composerAutoload,
-                'filename'                       => \Go\Instrument\Transformer\MagicConstantTransformer::resolveFileName($class->getFileName()),
+                'filename'                       => $class->getFileName(),
                 'className'                      => $class->getName(),
                 'methodName'                     => $this->name,
                 'collectCodeCoverageInformation' => $coverage,

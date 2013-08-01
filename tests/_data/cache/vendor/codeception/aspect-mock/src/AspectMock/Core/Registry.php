@@ -1,18 +1,21 @@
 <?php
 namespace AspectMock\Core;
 use AspectMock\Kernel;
+use AspectMock\Proxy\ClassProxy;
+use AspectMock\Proxy\InstanceProxy;
 
 /**
  * Used to store tracked classes and objects.
  *
- * class Registry__AopProxied
+ * Class Registry
  * @package AspectMock
  */
-class Registry__AopProxied {
+class Registry {
 
     protected static $classCalls = [];
     protected static $instanceCalls = [];
-    protected static $returned = [];
+    protected static $classReturned = [];
+    protected static $instanceReturned = [];
 
     /**
      * @return Mock
@@ -47,12 +50,42 @@ class Registry__AopProxied {
             : [];
     }
 
-
-    static function clean()
+    static function getReturnedValues($classOrInstance, $method)
     {
-        self::getMockAspect()->clean();
-        self::$classCalls = [];
-        self::$instanceCalls = [];
+        $classOrInstance = self::getRealClassOrObject($classOrInstance);
+        if (is_object($classOrInstance)) {
+            $oid = spl_object_hash($classOrInstance);
+            if (!isset(self::$instanceReturned[$oid])) return array();
+            $storage = self::$instanceReturned[$oid];
+        } else {
+            if (!isset(self::$classReturned[$classOrInstance])) return array();
+            $storage = self::$classReturned[$classOrInstance];
+        }
+
+        if (!isset($storage[$method])) return array();
+
+        return $storage[$method];
+    }
+
+    static function clean($classOrInstance = null)
+    {
+        $classOrInstance = self::getRealClassOrObject($classOrInstance);
+        self::getMockAspect()->clean($classOrInstance);
+        if (is_object($classOrInstance)) {
+            $oid = spl_object_hash($classOrInstance);
+            unset(self::$instanceCalls[$oid]);
+            unset(self::$instanceReturned[$oid]);
+
+        } elseif (is_string($classOrInstance)) {
+            unset(self::$classCalls[$classOrInstance]);
+            unset(self::$classReturned[$classOrInstance]);
+
+        } else {
+            self::$instanceCalls = [];
+            self::$classCalls = [];
+            self::$classReturned = [];
+            self::$instanceReturned = [];
+        }
     }
 
     static function registerInstanceCall($instance, $method, $args = array(), $returned = null)
@@ -64,8 +97,11 @@ class Registry__AopProxied {
             ? self::$instanceCalls[$oid][$method][] = $args
             : self::$instanceCalls[$oid][$method] = array($args);
 
-        self::$returned["$oid->$method"] = $returned;
-        
+        if (!isset(self::$instanceReturned[$oid])) self::$instanceReturned[$oid] = [];
+
+        isset(self::$instanceReturned[$method])
+            ? self::$instanceReturned[$method][] = $returned
+            : self::$instanceReturned[$method] = array($returned);
     }
 
     static function registerClassCall($class, $method, $args = array(), $returned = null)
@@ -76,75 +112,21 @@ class Registry__AopProxied {
             ? self::$classCalls[$class][$method][] = $args
             : self::$classCalls[$class][$method] = array($args);
 
-        self::$returned["$class.$method"] = $returned;
+        if (!isset(self::$classReturned[$class])) self::$classReturned[$class] = [];
+
+        isset(self::$classReturned[$class][$method])
+            ? self::$classReturned[$class][$method][] = $returned
+            : self::$classReturned[$class][$method] = array($returned);
+
+    }
+
+    public static function getRealClassOrObject($classOrObject)
+    {
+        if ($classOrObject instanceof ClassProxy) return $classOrObject->className;
+        if ($classOrObject instanceof InstanceProxy) return $classOrObject->getObject();
+        return $classOrObject;
     }
 
 
 
-}/**
- * Used to store tracked classes and objects.
- *
- * Class Registry
- * @package AspectMock
- */
-class Registry extends Registry__AopProxied implements \Go\Aop\Proxy
-{
-
-
-    /**
-     *Property was created automatically, do not change it manually
-     */
-    private static $__joinPoints = array();
-    
-    
-    public static function clean()
-    {
-        return self::$__joinPoints['static:clean']->__invoke(get_called_class());
-    }
-    
-    
-    public static function getClassCallsFor($class)
-    {
-        return self::$__joinPoints['static:getClassCallsFor']->__invoke(get_called_class(), array($class));
-    }
-    
-    
-    public static function getInstanceCallsFor($instance)
-    {
-        return self::$__joinPoints['static:getInstanceCallsFor']->__invoke(get_called_class(), array($instance));
-    }
-    
-    /**
-     * @return Mock
-     */
-    protected static function getMockAspect()
-    {
-        return self::$__joinPoints['static:getMockAspect']->__invoke(get_called_class());
-    }
-    
-    
-    public static function registerClass($name, $params = array())
-    {
-        return self::$__joinPoints['static:registerClass']->__invoke(get_called_class(), array($name, $params));
-    }
-    
-    
-    public static function registerClassCall($class, $method, $args = array(), $returned = null)
-    {
-        return self::$__joinPoints['static:registerClassCall']->__invoke(get_called_class(), array($class, $method, $args, $returned));
-    }
-    
-    
-    public static function registerInstanceCall($instance, $method, $args = array(), $returned = null)
-    {
-        return self::$__joinPoints['static:registerInstanceCall']->__invoke(get_called_class(), array($instance, $method, $args, $returned));
-    }
-    
-    
-    public static function registerObject($object, $params = array())
-    {
-        return self::$__joinPoints['static:registerObject']->__invoke(get_called_class(), array($object, $params));
-    }
-    
 }
-\Go\Proxy\ClassProxy::injectJoinPoints('AspectMock\Core\Registry', unserialize('a:8:{s:20:"static:getMockAspect";a:2:{i:0;C:40:"Go\\Aop\\Framework\\MethodAroundInterceptor":132:{a:1:{s:12:"adviceMethod";a:3:{s:5:"scope";s:6:"aspect";s:6:"method";s:11:"stubMethods";s:6:"aspect";s:22:"AspectMock\\Core\\Mocker";}}}i:1;C:40:"Go\\Aop\\Framework\\MethodAroundInterceptor":140:{a:1:{s:12:"adviceMethod";a:3:{s:5:"scope";s:6:"aspect";s:6:"method";s:19:"registerMethodCalls";s:6:"aspect";s:22:"AspectMock\\Core\\Mocker";}}}}s:20:"static:registerClass";a:2:{i:0;r:3;i:1;r:9;}s:21:"static:registerObject";a:2:{i:0;r:3;i:1;r:9;}s:23:"static:getClassCallsFor";a:2:{i:0;r:3;i:1;r:9;}s:26:"static:getInstanceCallsFor";a:2:{i:0;r:3;i:1;r:9;}s:12:"static:clean";a:2:{i:0;r:3;i:1;r:9;}s:27:"static:registerInstanceCall";a:2:{i:0;r:3;i:1;r:9;}s:24:"static:registerClassCall";a:2:{i:0;r:3;i:1;r:9;}}'));

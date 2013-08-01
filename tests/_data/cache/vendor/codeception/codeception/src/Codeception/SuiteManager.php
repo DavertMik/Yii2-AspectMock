@@ -43,7 +43,7 @@ class SuiteManager {
             throw new Exception\Configuration($settings['class_name'] . " class doesn't exists in suite folder.\nRun the 'build' command to generate it");
         }
 
-        require_once \Go\Instrument\Transformer\FilterInjectorTransformer::rewrite( $settings['path'] . $settings['class_name'].'.php', '/home/davert/demos/yii2/apps/advanced/vendor/codeception/codeception/src/Codeception');
+        require_once \Go\Instrument\Transformer\FilterInjectorTransformer::rewrite( $settings['path'] . $settings['class_name'].'.php', __DIR__);
         
         $this->initializeModules($settings);
     }
@@ -183,7 +183,7 @@ class SuiteManager {
     protected function getClassesFromFile($file)
     {
         $loaded_classes = get_declared_classes();
-        require_once \Go\Instrument\Transformer\FilterInjectorTransformer::rewrite( $file, '/home/davert/demos/yii2/apps/advanced/vendor/codeception/codeception/src/Codeception');
+        require_once \Go\Instrument\Transformer\FilterInjectorTransformer::rewrite( $file, __DIR__);
         $extra_loaded_classes = get_declared_classes();
         return array_diff($extra_loaded_classes,$loaded_classes);
     }
@@ -201,7 +201,7 @@ class SuiteManager {
             $groups = \PHPUnit_Util_Test::getGroups($class->name, $method->name);
             $test->getScenario()->groups($groups);
         } else {
-            if ($this->settings['bootstrap']) require_once \Go\Instrument\Transformer\FilterInjectorTransformer::rewrite( $this->settings['bootstrap'], '/home/davert/demos/yii2/apps/advanced/vendor/codeception/codeception/src/Codeception');
+            if ($this->settings['bootstrap']) require_once \Go\Instrument\Transformer\FilterInjectorTransformer::rewrite( $this->settings['bootstrap'], __DIR__);
         }
         return $test;
     }

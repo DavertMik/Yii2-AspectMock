@@ -336,7 +336,7 @@ class PHP_CodeCoverage_Filter
         }
 
         $reflector = new ReflectionClass($className);
-        $directory = \Go\Instrument\Transformer\MagicConstantTransformer::resolveFileName($reflector->getFileName());
+        $directory = $reflector->getFileName();
 
         for ($i = 0; $i < $parent; $i++) {
             $directory = dirname($directory);

@@ -621,7 +621,7 @@ class PHPUnit_TextUI_TestRunner extends PHPUnit_Runner_BaseTestRunner
             foreach ($arguments['configuration']->getListenerConfiguration() as $listener) {
                 if (!class_exists($listener['class'], FALSE) &&
                     $listener['file'] !== '') {
-                    require_once \Go\Instrument\Transformer\FilterInjectorTransformer::rewrite( $listener['file'], '/home/davert/demos/yii2/apps/advanced/vendor/phpunit/phpunit/PHPUnit/TextUI');
+                    require_once \Go\Instrument\Transformer\FilterInjectorTransformer::rewrite( $listener['file'], __DIR__);
                 }
 
                 if (class_exists($listener['class'])) {
